@@ -47,5 +47,5 @@ module.exports = {
     new HtmlWebpackPlugin({template: './index.html'}),
     //new ExtractTextPlugin({filename: "styles.bundle.css"}) ///fail：未成功分离 css
   ],
-  mode: 'development'
+  mode: 'development' // 
 }
